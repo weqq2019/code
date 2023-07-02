@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "D:\\Anaconda\\python.exe",
+		"python.autoComplete.extraPaths": [
+			
+		],
+		"python.analysis.extraPaths": [],
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.autopep8"
+		},
+		"python.formatting.provider": "none"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		{
+			"name": "Launch Chrome",
+			"request": "launch",
+			"type": "chrome",
+			"url": "http://localhost:8080",
+			"webRoot": "${workspaceFolder}"
+		}
+		]
+	}
+}
